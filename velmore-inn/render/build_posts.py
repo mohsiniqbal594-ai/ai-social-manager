@@ -10,7 +10,7 @@ A = (ROOT / "assets").as_uri()
 OUT = ROOT / "posts"
 OUT.mkdir(exist_ok=True)
 
-PHONE = "+92 345 1000329"
+PHONE = "0326 6125000"
 ADDRESS = "Plaza 13, I&amp;T Centre, G-9/4, Islamabad"
 
 IMG = {k: f"{A}/{v}" for k, v in {

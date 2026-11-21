@@ -5,7 +5,7 @@
 Every post uses the fixed brand frame (logo top · phone + address bar bottom). See `BRAND-GUIDELINE.md`.
 Format: Instagram/Facebook portrait **1080×1350** unless marked. Photos are in `assets/`.
 
-**Contact line used on every post:** ☎ +92 345 1000329 · 📍 Plaza 13, I&T Centre, G-9/4, Islamabad
+**Contact line used on every post:** ☎ 0326 6125000 · 📍 Plaza 13, I&T Centre, G-9/4, Islamabad
 
 | # | Date (PKT) | Hook type | On-image hook | Layout (reference) | Photo |
 |---|---|---|---|---|---|
@@ -37,7 +37,7 @@ Format: Instagram/Facebook portrait **1080×1350** unless marked. Photos are in 
 Every caption ends with this block:
 
 ```
-📞 Call / WhatsApp: +92 345 1000329
+📞 Call / WhatsApp: 0326 6125000
 📍 Plaza 13, I&T Centre, G-9/4, Islamabad
 #VelmoreInn #G9Islamabad #IslamabadHotels #StayInIslamabad #BoutiqueHotelPakistan
 ```

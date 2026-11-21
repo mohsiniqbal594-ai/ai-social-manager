@@ -1,7 +1,7 @@
 # Velmore Inn — Social Media Brand Guideline
 
 **Property:** Velmore Inn, Plaza 13, I&T Centre, G-9/4, Islamabad
-**Phone / WhatsApp:** +92 345 1000329 *(found on a Google Travel listing — confirm with front desk before publishing)*
+**Phone / WhatsApp:** 0326 6125000 (+92 326 6125000), confirmed by management
 **Prepared by:** Technoxarc Design & Build
 **Tool:** Canva (Instagram portrait 1080×1350, Stories 1080×1920)
 
@@ -65,7 +65,7 @@ Rule: **at most 3 colours per post** (Espresso + Gold + one neutral).
 | Headline | **Cinzel** (matches the logo's Roman caps) | `BOUTIQUE COMFORT` |
 | Elegant accent word | **Great Vibes** or **Allura** (script) | *Exquisite*, *Welcome* |
 | Sub-headline | **Cormorant Garamond** Semi-bold | Experience premium comfort |
-| Body / contact | **Montserrat** Medium | +92 345 1000329 |
+| Body / contact | **Montserrat** Medium | 0326 6125000 |
 
 Headline 70–110 pt · script accent 90–140 pt · body 28–34 pt. Keep text to **12 words or fewer** on the image itself.
 
@@ -89,7 +89,7 @@ Headline 70–110 pt · script accent 90–140 pt · body 28–34 pt. Keep text 
 │          HERO PHOTO                   │
 │                                       │
 ├───────────────────────────────────────┤
-│ ☎ +92 345 1000329  │ 📍 Plaza 13, I&T │  ← Espresso bar, gold icons,
+│ ☎ 0326 6125000  │ 📍 Plaza 13, I&T │  ← Espresso bar, gold icons,
 │   Call / WhatsApp  │ Centre, G-9/4 ISB │     ~150 px tall
 └───────────────────────────────────────┘
 ```
@@ -119,7 +119,7 @@ People decide in about **1.5 seconds** whether to stop scrolling. Every post ope
 
 1. **Line 1: hook** (repeat or extend the on-image hook, ≤ 10 words)
 2. **Lines 2–3: value** (what the guest gets)
-3. **Line 4: CTA** → "📞 Call / WhatsApp +92 345 1000329"
+3. **Line 4: CTA** → "📞 Call / WhatsApp 0326 6125000"
 4. **Line 5: location** → "📍 Plaza 13, I&T Centre, G-9/4, Islamabad"
 5. **Hashtags (8–12):** mix of brand, local and niche
 
@@ -150,7 +150,7 @@ People decide in about **1.5 seconds** whether to stop scrolling. Every post ope
 
 ## 7. Facts to confirm with management before publishing
 
-- [ ] Phone/WhatsApp number (+92 345 1000329, from a Google Travel listing)
+- [x] Phone/WhatsApp number: 0326 6125000 (confirmed)
 - [ ] Exact address wording (Plaza 13, I&T Centre, G-9/4: from a job listing)
 - [ ] Amenities: free Wi-Fi, 24/7 front desk, parking, room service, breakfast, heating
 - [ ] Room categories and names (Deluxe, Twin, Family/Triple?)
