@@ -1,6 +1,6 @@
 # Velmore Inn — Social Media Brand Guideline
 
-**Property:** Velmore Inn, Plaza 13, I&T Centre, G-9/4, Islamabad
+**Property:** Velmore Inn, Plot 13, Street 54, I&T Center, G-9/4, Islamabad
 **Phone / WhatsApp:** 0326 6125000 (+92 326 6125000), confirmed by management
 **Prepared by:** Technoxarc Design & Build
 **Tool:** Canva (Instagram portrait 1080×1350, Stories 1080×1920)
@@ -20,7 +20,7 @@ The social feed should make people think *"that's a lot nicer than I expected fo
 |---|---|---|
 | Business travellers (Islamabad meetings, I&T Centre, Blue Area) | Location, quiet room, fast check-in | "Your meeting is 10 min away. Your bed is 10 steps away." |
 | Families visiting patients at PIMS (next door in G-8) | Close, clean, twin/family rooms, safe | "Visiting PIMS? Stay minutes away." |
-| Out-of-city families and shoppers (Karachi Company, G-9 Markaz) | Value, space, safety | "3 beds, 1 room, zero compromise." |
+| Out-of-city families and shoppers (Karachi Company, G-9 Markaz) | Value, space, safety | "Two master beds. One room. PKR 11,000." |
 | Couples and weekend visitors | Aesthetics, privacy | "A weekend that looks this good." |
 
 ---
@@ -89,7 +89,7 @@ Headline 70–110 pt · script accent 90–140 pt · body 28–34 pt. Keep text 
 │          HERO PHOTO                   │
 │                                       │
 ├───────────────────────────────────────┤
-│ ☎ 0326 6125000  │ 📍 Plaza 13, I&T │  ← Espresso bar, gold icons,
+│ ☎ 0326 6125000  │ 📍 Plot 13, St 54 │  ← Espresso bar, gold icons,
 │   Call / WhatsApp  │ Centre, G-9/4 ISB │     ~150 px tall
 └───────────────────────────────────────┘
 ```
@@ -120,7 +120,7 @@ People decide in about **1.5 seconds** whether to stop scrolling. Every post ope
 1. **Line 1: hook** (repeat or extend the on-image hook, ≤ 10 words)
 2. **Lines 2–3: value** (what the guest gets)
 3. **Line 4: CTA** → "📞 Call / WhatsApp 0326 6125000"
-4. **Line 5: location** → "📍 Plaza 13, I&T Centre, G-9/4, Islamabad"
+4. **Line 5: location** → "📍 Plot 13, Street 54, I&T Center, G-9/4, Islamabad"
 5. **Hashtags (8–12):** mix of brand, local and niche
 
 **Hashtag bank**
@@ -151,8 +151,19 @@ People decide in about **1.5 seconds** whether to stop scrolling. Every post ope
 ## 7. Facts to confirm with management before publishing
 
 - [x] Phone/WhatsApp number: 0326 6125000 (confirmed)
-- [ ] Exact address wording (Plaza 13, I&T Centre, G-9/4: from a job listing)
-- [ ] Amenities: free Wi-Fi, 24/7 front desk, parking, room service, breakfast, heating
-- [ ] Room categories and names (Deluxe, Twin, Family/Triple?)
+- [x] Address: Plot 13, Street 54, I&T Center, G-9/4, Islamabad (from the official rate card)
+- [x] Confirmed amenities: Free Wi-Fi, Parking, Clean & comfortable rooms, Central location
+- [ ] Still unconfirmed (don't advertise yet): 24/7 front desk, room service, breakfast, heating
+- [x] Room types and rates (official rate card):
+
+| Room | Rate |
+|---|---|
+| Standard Master Bed | PKR 7,000 |
+| Twin Bed | PKR 7,500 |
+| Deluxe Master Bed | PKR 8,000 |
+| Master Bed + Single | PKR 9,000 |
+| 2 Master Beds | PKR 11,000 |
+
+Official taglines to reuse: *"Comfortable stays in Islamabad"* · *"Modern rooms, prime location"* · *"Ideal for business & leisure stays"*
 - [ ] Any December offers (New Year package, long-stay discount, PIMS family rate)
 - [ ] Instagram/Facebook handle and Google Maps link for the bio

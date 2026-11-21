@@ -11,7 +11,7 @@ OUT = ROOT / "posts"
 OUT.mkdir(exist_ok=True)
 
 PHONE = "0326 6125000"
-ADDRESS = "Plaza 13, I&amp;T Centre, G-9/4, Islamabad"
+ADDRESS = "Plot 13, Street 54, I&amp;T Center<br>G-9/4, Islamabad"
 
 IMG = {k: f"{A}/{v}" for k, v in {
     "reception": "reception.png", "lift": "lobby-lift.png", "stair": "floating-staircase.png",
@@ -29,6 +29,8 @@ def ico(name, s=46):
      "snow": '<path d="M12 2v20M4 7l16 10M20 7L4 17"/>',
      "lift": '<rect x="5" y="3" width="14" height="18" rx="1"/><path d="M12 3v18M8.5 9l-1.5 2h3zM15.5 11l-1.5-2 -1.5 2z"/>',
      "cam": '<path d="M3 7h12l3 3-3 3H3zM6 13v4M3 17h6"/><circle cx="18.5" cy="10" r="1"/>',
+     "wifi": '<path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/>',
+     "car": '<path d="M5 16V11l2-5h10l2 5v5M3 16h18v3H3zM5 11h14"/><circle cx="7.5" cy="13.5" r=".8"/><circle cx="16.5" cy="13.5" r=".8"/>',
      "heart": '<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>',
      "family": '<circle cx="8" cy="6" r="2.2"/><circle cx="16" cy="6" r="2.2"/><circle cx="12" cy="12" r="1.8"/><path d="M4 20v-6a4 4 0 0 1 8 0M12 20v-4M12 14a4 4 0 0 1 8 0v6"/>',
      "spark": '<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>',
@@ -62,7 +64,7 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--esp)}
 .footer .item{display:flex;align-items:center;gap:18px;color:var(--gold)}
 .footer .t1{font-size:17px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
 .footer .t2{font-size:30px;font-weight:600;color:var(--marble);letter-spacing:.02em;margin-top:4px}
-.footer .t3{font-size:23px;font-weight:500;color:var(--marble);margin-top:4px}
+.footer .t3{font-size:22px;font-weight:500;color:var(--marble);margin-top:4px;line-height:1.3}
 .footer .sep{width:1px;height:78px;background:rgba(201,160,78,.5)}
 .btn{display:inline-block;background:var(--gold);color:var(--esp);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:22px;padding:18px 38px;border-radius:60px}
 .tile{position:absolute;border:6px solid #fff;border-radius:34px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.45)}
@@ -239,7 +241,7 @@ def mapcard():
       <rect x="370" y="160" width="220" height="140" fill="#dff1e6"/>{roads}{labels}
       <g transform="translate(510 380)"><path d="M0 0c-26-34-40-52-40-72a40 40 0 0 1 80 0c0 20-14 38-40 72z" fill="#C9A04E" stroke="#2B1D14" stroke-width="3"/><circle cx="0" cy="-72" r="14" fill="#2B1D14"/></g>
       <text x="560" y="350" font-size="30" font-weight="700" fill="#2B1D14" font-family="Montserrat">Velmore Inn</text>
-      <text x="560" y="380" font-size="22" fill="#555" font-family="Montserrat">G-9/4 · I&amp;T Centre</text></svg>"""
+      <text x="560" y="380" font-size="22" fill="#555" font-family="Montserrat">Street 54 · G-9/4 · I&amp;T Center</text></svg>"""
 
 def mappost():
     return page(f"""<img class="bg" style="filter:blur(10px) brightness(.4)" src="{IMG['reception']}">
@@ -269,23 +271,42 @@ def greeting(script, head, sub, img="reception"):
       <div class="corm" style="font-size:40px;font-style:italic;color:var(--trav)">{sub}</div>
     </div>""")
 
+RATES = [("Standard Master Bed", "bed", 1, "7,000"), ("Twin Bed", "bed", 2, "7,500"), ("Deluxe Master Bed", "bed", 1, "8,000"),
+         ("Master Bed + Single", "bed", 2, "9,000"), ("2 Master Beds", "bed", 2, "11,000")]
+
+def ratecard():
+    rows = "".join(f"""<div style="display:flex;align-items:center;gap:22px;padding:22px 34px;border-bottom:1px solid rgba(201,160,78,.35)">
+        <div style="color:var(--gold);display:flex;gap:4px;width:110px">{ico(i,48)*n}</div>
+        <div class="cinzel" style="flex:1;font-size:32px;letter-spacing:.03em">{name}</div>
+        <div style="background:var(--gold);color:var(--esp);font-weight:700;font-size:30px;padding:12px 26px;border-radius:40px">PKR {p}</div></div>"""
+        for name, i, n, p in RATES)
+    return page(f"""<img class="bg" style="filter:blur(6px) brightness(.35)" src="{IMG['family']}">
+    <div class="abs" style="inset:0;background:linear-gradient(rgba(43,29,20,.6),rgba(43,29,20,.92))"></div>{logo()}
+    <div class="abs center" style="top:150px;left:60px;right:60px">
+      <div class="script" style="font-size:96px;line-height:1.15">Which room</div>
+      <div class="cinzel" style="font-size:52px">fits your trip?</div>
+    </div>
+    <div class="abs" style="left:70px;right:70px;top:410px;border:2px solid rgba(201,160,78,.6);border-radius:30px;background:rgba(25,16,10,.55)">
+      <div style="text-align:center;padding:20px;font-size:22px;letter-spacing:.35em;color:var(--trav);border-bottom:1px solid rgba(201,160,78,.35)">ROOM RATES</div>{rows}</div>
+    <div class="abs center" style="top:1085px;left:60px;right:60px;font-size:24px;letter-spacing:.14em;color:var(--trav);text-transform:uppercase">Free Wi-Fi · Parking · Central G-9 Location</div>""")
+
 # ---------- the 20 posts ----------
 POSTS = [
  hero("reception", "50% 40%", "", "This isn't a<br>5-star lobby.", "", "bottom", after="It's G-9."),
  mappost(),
  hero("stair", "50% 55%", "Crafted", "Floating timber.<br>Hidden light.", "Every step glows.", "top"),
- trio(["deluxe", "family", "twin"], "Where are you staying<br>this weekend?", "Deluxe · Family · Twin", "Book Your Stay Now"),
+ trio(["deluxe", "family", "twin"], "Where are you staying<br>this weekend?", "Rooms from PKR 7,000", "Book Your Stay Now"),
  split("family", "40% 50%", "Tired of rooms that don't match the photos?", "These are real."),
  cream("twin", "50% 60%", "Visiting PIMS?", "Stay just minutes away.", [("pin", "Close By"), ("clean", "Spotless"), ("moon", "Calm Nights")]),
  newspaper("deluxe", "50% 55%", "THE VELMORE TIMES", "Your Perfect Stay<br>Starts in G-9", "Experience Premium Comfort", "Comfort · Elegance · Hospitality"),
  hero("lift", "50% 50%", "Welcome", "POV: You walked in<br>expecting an inn.", "", "bottom"),
- bubbles("family", "50% 60%", "Everything you need.<br>Nothing you don't.", [("snow", "AC Rooms"), ("lift", "Lift Access"), ("family", "Family Rooms"), ("cam", "CCTV Security"), ("pin", "Prime G-9")]),
+ bubbles("family", "50% 60%", "Everything you need.<br>Nothing you don't.", [("snow", "AC Rooms"), ("wifi", "Free Wi-Fi"), ("car", "Parking"), ("lift", "Lift Access"), ("pin", "Prime G-9")]),
  doorhanger("twin", "35% 50%", "DO NOT DISTURB", "comfort", "IN PROGRESS"),
  stack("reception", "50% 40%", ["lift", "deluxe", "stair"], "Your meeting is 10 minutes away.<br>Your bed is 10 steps away.", "Business Stays", "Check in · Rest · Show up sharp"),
- glass("lift", "Marble floors.<br>Coffered light.", "Quiet nights, designed in.", [("snow", "Air-<br>conditioned"), ("lift", "Lift<br>Access"), ("cam", "CCTV<br>Security"), ("family", "Family<br>Rooms")], ["deluxe", "family", "twin"]),
- trio(["family", "deluxe", "twin"], "3 beds. 1 room.<br>Zero compromise.", "Family rooms in G-9", "Book Your Stay Now", bg="family"),
- hero("deluxe", "50% 50%", "This Winter", "Weekends are<br>filling up.", "Lock in your December dates.", "bottom", "Book Now"),
- split("twin", "45% 50%", "Twin beds or one big one?", "We've got both.", side="right"),
+ glass("lift", "Marble floors.<br>Coffered light.", "Quiet nights, designed in.", [("wifi", "Free<br>Wi-Fi"), ("car", "Parking<br>Available"), ("snow", "Air-<br>conditioned"), ("lift", "Lift<br>Access")], ["deluxe", "family", "twin"]),
+ trio(["family", "deluxe", "twin"], "Two master beds.<br>One room.", "Family room · PKR 11,000", "Zero compromise", bg="family"),
+ hero("deluxe", "50% 50%", "This Winter", "Weekends are<br>filling up.", "Rooms from PKR 7,000 · Lock in your dates.", "bottom", "Book Now"),
+ ratecard(),
  cream("lift", "50% 45%", "Peace of mind", "Lift access · CCTV security", [("lift", "Lift Access"), ("cam", "CCTV"), ("shield", "Safe Stays")]),
  hero("family", "50% 55%", "Home for the holidays?", "Make it Velmore.", "", "bottom", None, sparkle=True),
  greeting("Happy Quaid Day", "& Merry Christmas", "25 December · Warm wishes from Velmore Inn"),
