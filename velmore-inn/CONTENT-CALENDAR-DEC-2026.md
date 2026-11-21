@@ -1,5 +1,7 @@
 # Velmore Inn — 20-Post Content Calendar · December 2026
 
+**Ready-made designs:** `posts/post-01.png` … `post-20.png` (numbered to match this table), `posts/all-posts.pdf` (all 20 pages, drag into Canva to edit), `posts/contact-sheet.jpg` (overview).
+
 Every post uses the fixed brand frame (logo top · phone + address bar bottom). See `BRAND-GUIDELINE.md`.
 Format: Instagram/Facebook portrait **1080×1350** unless marked. Photos are in `assets/`.
 
@@ -7,7 +9,7 @@ Format: Instagram/Facebook portrait **1080×1350** unless marked. Photos are in 
 
 | # | Date (PKT) | Hook type | On-image hook | Layout (reference) | Photo |
 |---|---|---|---|---|---|
-| 1 | Tue 1 Dec | Curiosity | **This isn't a 5-star lobby. It's G-9.** | Full-bleed hero, Cinzel headline top (ref 4) | reception.png |
+| 1 | Tue 1 Dec | Curiosity | **This isn't a 5-star lobby. It's G-9.** | Full-bleed hero, Cinzel headline + script (ref 4) | reception.png |
 | 2 | Wed 2 Dec | Location | **Find us in the heart of G-9** · *Book your way to comfort* | Map + gold brush frame (ref 1) | map screenshot of G-9/4 |
 | 3 | Thu 3 Dec | Detail | **Floating timber. Hidden light. Every step glows.** | Tall hero, script "Crafted" (ref 4) | floating-staircase.png |
 | 4 | Fri 4 Dec | Question | **Where are you staying in Islamabad this weekend?** | Room trio tiles + script CTA (ref 7) | deluxe-lounge, family, twin |
@@ -22,7 +24,7 @@ Format: Instagram/Facebook portrait **1080×1350** unless marked. Photos are in 
 | 13 | Thu 17 Dec | Family | **3 beds. 1 room. Zero compromise.** | Room trio + "Book Your Stay Now" (ref 7) | family-room.png |
 | 14 | Fri 18 Dec | Scarcity | **Winter weekends are filling up.** | Full-bleed hero, amber "Book now" button (ref 4) | deluxe-lounge-room.png |
 | 15 | Sat 19 Dec | Question | **Twin beds or one big one? We've got both.** | Two-photo split (ref 8) | twin-room-zebra + family-room |
-| 16 | Mon 21 Dec | Security / trust | **Lift access. 24/7 CCTV. Peace of mind.** | Cream panel + 3 icons (ref 5) | lobby-lift.png |
+| 16 | Mon 21 Dec | Security / trust | **Peace of mind** · Lift access · CCTV security | Cream panel + 3 icons (ref 5) | lobby-lift.png |
 | 17 | Wed 23 Dec | Seasonal | **Home for the holidays? Make it Velmore.** | Hero + gold sparkle top-left (ref 7) | family-room.png |
 | 18 | Fri 25 Dec | Occasion | **Happy Quaid Day & Merry Christmas** | Minimal greeting, logo centre, Espresso bg | reception.png |
 | 19 | Mon 28 Dec | Scarcity | **New Year's Eve: only a few rooms left.** | Newspaper "Breaking" mockup (ref 2) | deluxe-lounge-room.png |
@@ -48,14 +50,14 @@ Every caption ends with this block:
 6. **Visiting someone at PIMS?** Rest close by in a clean, calm and secure room, just minutes from the hospital. Family rooms available.
 7. **Read all about it.** Islamabad's newest boutique stay is now open in G-9. Comfort · Elegance · Hospitality.
 8. **POV: you walked in expecting an inn…** and found a travertine lift lobby with LED-lit stone walls. Welcome to Velmore.
-9. **Everything you need. Nothing you don't.** AC rooms · lift access · CCTV security · quick check-in. *(add Wi-Fi/parking once confirmed)*
+9. **Everything you need. Nothing you don't.** AC rooms · lift access · CCTV security · family rooms · prime G-9 location. *(add Wi-Fi/parking once confirmed)*
 10. **Do Not Disturb: comfort in progress.** Crisp white linen, soft headboards and a room that's actually quiet.
 11. **Business in Islamabad?** Meetings in Blue Area, I&T Centre or F-sectors are a short drive away. Check in fast, sleep well, show up sharp.
 12. **Marble floors. Coffered light. Quiet nights.** Designed to feel calm the second the door closes.
 13. **Travelling as a family?** Our family room fits three beds with room to breathe. Nobody gets the sofa.
 14. **Winter weekends are filling up fast.** Lock in your December dates now: call or WhatsApp to book.
 15. **Twin beds or one big one?** Pick the room that fits your trip. Both come with the same Velmore comfort.
-16. **Your safety is part of your stay.** Lift access, 24/7 CCTV-monitored corridors and a staffed front desk.
+16. **Your safety is part of your stay.** Lift access and CCTV-monitored corridors, so your family can rest easy.
 17. **Home for the holidays?** Bring the family to Islamabad and give them a room they'll remember.
 18. **Happy Quaid Day & Merry Christmas** from all of us at Velmore Inn. 🇵🇰🎄
 19. **Breaking: New Year's Eve rooms almost gone.** Celebrate in Islamabad and wake up somewhere beautiful.
